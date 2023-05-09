@@ -1,0 +1,71 @@
+/*main*/
+
+main {
+    background-color: rgb(24, 24, 37);
+    color: ghostwhite;
+}
+
+body {
+    background-color: rgb(24, 24, 37);
+}
+
+/*Logo*/ 
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 15px;
+    width: 50%;
+}
+
+/*texto*/
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+p {
+    color: ghostwhite;
+}
+
+/*botones*/
+
+ul li a {
+    text-decoration: none;
+}
+
+.boton {
+    text-decoration: none;
+    color: ghostwhite;
+    border: 2px solid rgb(203, 166, 247);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover {
+    background-color: rgb(243, 139, 168);
+}
+
+/*header*/
+
+header {
+    background-color: rgb(24, 24, 37);
+}
