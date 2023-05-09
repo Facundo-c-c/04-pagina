@@ -28,16 +28,34 @@ body {
     background-color: rgb(24, 24, 37);
 }
 
-img {
+section img {
     border-radius: 15px;
     width: 50%;
+    opacity: 0.8;
+    transition: 1s;
 }
 
+section img:hover{
+    transition: 1s;
+    width: 55%;
+    opacity: 1;
+}
 
 /*texto*/
 
-h2 {
+#gnome {
     text-align: center;
+    color: rgb(166, 218, 149);
+}
+
+#budgie {
+    text-align: center;
+    color: rgb(198, 160, 246);
+}
+
+#plasma {
+    text-align: center;
+    color: rgb(245, 169, 127);
 }
 
 p {
@@ -57,6 +75,11 @@ p {
     color: ghostwhite;
 }
 
+#copy {
+    text-align: left;
+    text-decoration: underline;
+}
+
 /*botones*/
 
 ul li a {
@@ -65,8 +88,7 @@ ul li a {
 
 .boton {
     text-decoration: none;
-    color: ghostwhite;
-    border: 2px solid rgb(203, 166, 247);
+    border: 2px solid rgb(139, 213, 202);
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
@@ -74,8 +96,40 @@ ul li a {
 }
 
 .boton:hover {
-    background-color: rgb(243, 139, 168);
-    color: rgb(180, 190, 254);
-    color: rgb(180, 190, 254);
+    background-color: rgb(139, 213, 202);
+    color: rgb(17, 17, 27)  
+}
 
+.boton a:hover {
+    color: rgb(17, 17, 27);
+}
+
+li a {
+    color: rgb(180, 190, 254);
+}
+
+/*section*/
+
+section {
+    padding: 3%;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(49, 50, 68);
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.icono {
+    justify-content: center;
+    width: 30px;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.icono:hover{
+    opacity: 0.9;
+    transition: 1s;
 }
