@@ -60,7 +60,9 @@ section img:hover{
 
 p {
     text-align: center;
+    color: ghostwhite;
 }
+
 
 ul {
     text-align: center;
@@ -69,15 +71,6 @@ ul {
 h1 {
     color: ghostwhite;
     text-align: center;
-}
-
-p {
-    color: ghostwhite;
-}
-
-#copy {
-    text-align: left;
-    text-decoration: underline;
 }
 
 /*botones*/
