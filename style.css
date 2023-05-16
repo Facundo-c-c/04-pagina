@@ -47,21 +47,21 @@ section img {
     filter: grayscale(0.7);
 }
 
-#section_1:hover img{
+#section_1:hover img {
     transition: 1s;
     width: 57%;
     opacity: 1;
     filter: grayscale(0);
 }
 
-#section_2:hover img{
+#section_2:hover img {
     transition: 1s;
     width: 57%;
     opacity: 1;
     filter: grayscale(0);
 }
 
-#section_3:hover img{
+#section_3:hover img {
     transition: 1s;
     width: 57%;
     opacity: 1;
@@ -69,21 +69,6 @@ section img {
 }
 
 /*texto*/
-
-#gnome {
-    text-align: center;
-    color: rgb(166, 218, 149);
-}
-
-#budgie {
-    text-align: center;
-    color: rgb(198, 160, 246);
-}
-
-#plasma {
-    text-align: center;
-    color: rgb(245, 169, 127);
-}
 
 p {
     text-align: center;
@@ -97,6 +82,48 @@ ul {
 h1 {
     color: ghostwhite;
     text-align: center;
+}
+
+/*texto animado*/
+
+#gnome {
+    text-align: center;
+    color: rgb(166, 218, 149);
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+#budgie {
+    text-align: center;
+    color: rgb(198, 160, 246);
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+#plasma {
+    text-align: center;
+    color: rgb(245, 169, 127);
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+#section_1:hover #gnome {
+    filter: grayscale(0);
+    font-size: 40px;
+    transition: 1s;
+
+}
+
+#section_2:hover #budgie {
+    filter: grayscale(0);
+    font-size: 40px;
+    transition: 1s;
+}
+
+#section_3:hover #plasma {
+    filter: grayscale(0);
+    font-size: 40px;
+    transition: 1s;
 }
 
 /*botones*/
@@ -131,12 +158,12 @@ li a {
     color: rgb(180, 190, 254);
 }
 
-/*section*/
+/*section* (pense que hiba a poner mas cosas) */
+
 
 section {
     padding: 3%;
-}
-
+}  
 /*footer*/
 
 footer {
